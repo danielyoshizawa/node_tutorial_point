@@ -58,3 +58,9 @@ var buffer71 = new Buffer('TutorialsPoint');
 
 var buffer72 = buffer71.slice(0,9);
 console.log("Buffer72 content: " + buffer72.toString());
+
+// Example 8 
+
+var buffer8 = new Buffer('TutorialsPoint');
+
+console.log("buffer length: " + buffer8.length);
