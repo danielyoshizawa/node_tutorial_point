@@ -51,3 +51,10 @@ var buffer62 = new Buffer(3);
 
 buffer61.copy(buffer62);
 console.log("buffer 62 content: " + buffer62.toString());
+
+// Example 7
+
+var buffer71 = new Buffer('TutorialsPoint');
+
+var buffer72 = buffer71.slice(0,9);
+console.log("Buffer72 content: " + buffer72.toString());
