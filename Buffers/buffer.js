@@ -15,3 +15,9 @@ console.log(buffer2.toString('ascii', 0, 5));
 console.log(buffer2.toString('utf8', 0, 5));
 console.log(buffer2.toString(undefined, 0, 5));
 
+//Example 3
+
+var buffer3 = new Buffer('Simply Easy Learning');
+var json = buffer3.toJSON(buffer3);
+
+console.log(json);
