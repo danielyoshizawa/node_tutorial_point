@@ -21,3 +21,10 @@ var buffer3 = new Buffer('Simply Easy Learning');
 var json = buffer3.toJSON(buffer3);
 
 console.log(json);
+
+//Example 4
+
+var buffer41 = new Buffer('TutorialsPoint');
+var buffer42 = new Buffer('Simply Easy Learning');
+var buffer43 = Buffer.concat([buffer41, buffer42]);
+console.log("buffer43 content: "+ buffer43.toString());
