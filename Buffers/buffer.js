@@ -42,3 +42,12 @@ if(result < 0) {
 }else {
    console.log(buffer51 + " comes after " + buffer52);
 }
+
+// Example 6
+
+var buffer61 = new Buffer('ABC');
+
+var buffer62 = new Buffer(3);
+
+buffer61.copy(buffer62);
+console.log("buffer 62 content: " + buffer62.toString());
