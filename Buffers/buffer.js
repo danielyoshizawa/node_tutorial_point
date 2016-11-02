@@ -28,3 +28,17 @@ var buffer41 = new Buffer('TutorialsPoint');
 var buffer42 = new Buffer('Simply Easy Learning');
 var buffer43 = Buffer.concat([buffer41, buffer42]);
 console.log("buffer43 content: "+ buffer43.toString());
+
+// Example 5
+
+var buffer51 = new Buffer('ABC');
+var buffer52 = new Buffer('ABCD');
+var result = buffer51.compare(buffer52);
+
+if(result < 0) {
+   console.log(buffer51 + " comes before "+ buffer52);
+}else if(result == 0) {
+   console.log(buffer51 + " is same as " + buffer52);
+}else {
+   console.log(buffer51 + " comes after " + buffer52);
+}
